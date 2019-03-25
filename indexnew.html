@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <title>active-law</title>
+    <link rel="shortcut icon" type="image/ico" href="assets/images/icon.ico" />
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='styleheet'>
+    <link href='https://fonts.googleapis.com/css?family=HelveticaNeue' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/media-queries.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<nav>
+  <div class="topnav" id="myTopnav" class="overlay">
+    <a href="indexnew.html" ><img src="assets/images/logo.png" alt="Logo" class="logo"></a> <!--I have removed class="active" after #home-->
+    <div id="myDIV" class="nav">
+      <a class="cool-link btn" href="#to-about" "javascript:void(0);" onclick="myFunction()">About</a>
+      <a class="cool-link btn" href="#to-services" "javascript:void(0);" onclick="myFunction()">Services</a>
+      <a class="cool-link btn" href="#to-team" "javascript:void(0);" onclick="myFunction()">Team</a>
+      <a class="cool-link btn" href="#to-contact" "javascript:void(0);" onclick="myFunction()">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="assets/images/menu-icon.png" />
+        <!-- <i class="fa fa-bars" style="font-size: 18px;"></i> -->
+      </a></div>
+  </div>
+</nav>
+
+
+<div class="hero-section">
+    <img src="assets/images/landing-image.png" class="hero-image" />
+    <div class="quotation">
+      <p class="quote">
+      &ldquo;Ethics is knowing the difference between what you have a right to do and what is right to do.&rdquo;
+      <cite>-&nbsp;Potter&nbsp;Stewart</cite></p>
+    </div>
+  </div>
+
+<span class="anchor" id="to-about"></span>
+<div id="about">
+  <h1 class="section-heading">About</h1>
+  <h1 class="tagline">Ethics, innovation and performance are the cornerstone of Active Law.</h1>
+  <p>
+    Active Law is a corporate and real estate law firm based in Bangalore, India. The firm was established in 2014 and over the years, it has built a vast body of work in its chosen areas; working with individual clients, companies and start ups.
+    <br />
+    <br />
+    The firm aims to understand its clients' goals at the outset and works at providing legal solutions and services in consonance with those goals.
+  </p>
+</div>
+
+<span class="anchor" id="to-services"></span>
+<div id="services">
+  <h1 class="section-heading">Services</h1>
+  <div class="service-content">
+      <ul class="box-services">
+        <li><span class="list-name">Incorporation</span></li>
+        <li><span class="list-num">01</span></li>
+      </ul>
+
+      <ul class="box-services">
+        <li><span class="list-name">General Corporate</span></li>
+        <li><span class="list-num">02</span></li>
+      </ul>
+
+      <ul class="box-services">
+        <li><span class="list-name">Real Estate</span></li>
+        <li><span class="list-num">03</span></li>
+      </ul>
+
+      <ul class="box-services">
+        <li><span class="list-name">Start-up&nbsp;Assistance</span></li>
+        <li><span class="list-num">04</span></li>
+      </ul>
+
+      <ul class="box-services">
+        <li><span class="list-name">NGO and NPO</span></li>
+        <li><span class="list-num">05</span></li>
+      </ul>
+
+      <ul class="box-services">
+        <li><span class="list-name">Arbitaration</span></li>
+        <li><span class="list-num">06</span></li>
+      </ul>
+</div>
+      <a href="services.html" class="learn-more">Learn More</a>
+  </div>
+
+  <span class="anchor" id="to-team"></span>
+  <div id="team">
+    <h1 class="section-heading">Team</h1>
+    <div class="info">
+      <div class="rachana">
+        <ul class="text-box">
+          <li><img src="assets/images/rachana.png" class="photo" /></li>
+          <li class="name">RACHANA BHAT</li>
+          <li class="qualification">B.A.,LL.B</li>
+          <a href="mailto:rachana@activelaw.in?Subject=Hi%20There!" class="email-phone">Contact</a>
+        </ul>
+      </div>
+      <div class="arundhati">
+        <ul class="text-box">
+          <li><img src="assets/images/aru.png" class="photo" /></li>
+          <li class="name">ARUNDHATI V SHARMA</li>
+          <li class="qualification">B.A.,LL.B</li>
+          <a href="mailto:arundhati@activelaw.in?Subject=Hi%20There!" class="email-phone">Contact</a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <span class="anchor" id="to-contact"></span>
+    <div id="contact">
+      <p class="say-hello">Say Hello,</p>
+      <p class="email-us"><a href="mailto:info@activelaw.in?Subject=Hi%20There!">info@activelaw.in</a></p>
+    </div>
+
+
+    <div class="footer">
+      <div class="copy-right">&copy; Active Law 2018</div>
+      <div class="address"><a href="https://goo.gl/maps/FRmvi7n5uHN2">Address: #614, 13 th Cross, 14 th Main, JP Nagar 2 nd Phase Bangalore &mdash; 560078</a></div>
+    </div>
+
+
+<script>
+$(window).scroll(function() {
+    if ($(window).scrollTop() >= 0) {
+        $('nav').addClass('fixed-header');
+        $('nav div').addClass('visible-title');
+    }
+    else {
+        $('nav').removeClass('fixed-header');
+        $('nav div').removeClass('visible-title');
+    }
+});
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) {
+    current[0].className = current[0].className.replace(" active", "");
+  }
+  this.className += " active";
+  });
+}
+
+</script>
