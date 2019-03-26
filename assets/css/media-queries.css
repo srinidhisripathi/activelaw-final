@@ -411,3 +411,12 @@
 }
 
 }
+
+@media only screen and (min-width: 768px) {
+  
+  .disclaimer > p {
+  font-size: max(1.4595vw, 16px);
+  line-height: max(1.668vw, 19px);
+  padding-bottom: max(2.7105vw, 29px);
+  }
+}
