@@ -490,6 +490,9 @@ nav {
 .disclaimer > p {
   font-family: "Roboto-Light", sans-serif;
   color: #00204A;
+  font-size: max(1.4595vw, 16px);
+  line-height: max(1.668vw, 19px);
+  padding-bottom: max(2.7105vw, 29px);
   text-align: justify;
   margin-right: max(3.475vw, 37.5px);
   margin-left: max(3.475vw, 37.5px);
