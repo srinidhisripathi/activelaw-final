@@ -343,8 +343,8 @@
   }
 
   .disclaimer > p {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 25px;
+    line-height: 28px;
     padding-bottom: 20px;
     text-align: justify;
     margin-right: 14px;
@@ -392,8 +392,8 @@
   }
 
   .disclaimer > p {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 25px;
+    line-height: 28px;
     padding-bottom: 20px;
     text-align: justify;
     margin-right: 14px;
@@ -410,20 +410,4 @@
   width: 80%;
 }
 
-.disclaimer > h1 {
-  font-size: 18px;
-  line-height: 21px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-}
-
-.disclaimer > p {
-  font-size: 19px;
-  line-height: 21px;
-  padding-bottom: 20px;
-  text-align: justify;
-  margin-right: 14px;
-  margin-left: 14px;
-}
 }
