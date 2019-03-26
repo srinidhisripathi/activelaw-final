@@ -343,8 +343,8 @@
   }
 
   .disclaimer > p {
-    font-size: 100px;
-    line-height: 120px;
+    font-size: 19px;
+    line-height: 21px;
     padding-bottom: 20px;
     text-align: justify;
     margin-right: 14px;
@@ -392,8 +392,8 @@
   }
 
   .disclaimer > p {
-    font-size: 100px;
-    line-height: 120px;
+    font-size: 19px;
+    line-height: 21px;
     padding-bottom: 20px;
     text-align: justify;
     margin-right: 14px;
@@ -412,11 +412,3 @@
 
 }
 
-@media only screen and (min-width: 768px) {
-  
-  .disclaimer > p {
-  font-size: max(1.4595vw, 16px);
-  line-height: max(1.668vw, 19px);
-  padding-bottom: max(2.7105vw, 29px);
-  }
-}
